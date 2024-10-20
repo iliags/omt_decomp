@@ -2,10 +2,11 @@
 
 AWE Games (aka AWE Productions) created some movie-based games in the early 2000's. They used an in-house engine based on a framework called OMT. This document details found when attempting to reverse engineer titles using this engine.
 
-Known titles:
+Known titles (not exhaustive):
 
 - Jimmy Neutron Boy Genius (2001, PC)
 - Jimmy Neutron vs Jimmy Negatron (2002, PC)
+- SpongeBob SquarePants: Employee of the Month (2002, PC)
 - SpongeBob SquarePants: Battle for Bikini Bottom (2003, PC)
 
 ## ASE
