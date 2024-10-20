@@ -20,6 +20,22 @@ Appears to be a file containing data from a level editor, currently unknown how 
 
 A general container format which holds sounds, textures, and perhaps static 3D models.
 
+Sample:
+
+```txt
+// Raw
+50 6F 73 69 74 69 6F 6E 58 00 00 00 03 00 00 00 04 46 1A 37 C4 09
+50 6F 73 69 74 69 6F 6E 59 00 00 00 03 00 00 00 04 41 FB 36 32 09
+50 6F 73 69 74 69 6F 6E 5A 00 00 00 03 00 00 00 04 44 81 38 3A 09
+
+// Partially translated
+PositionX 00 00 00 03 00 00 00 04 46 1A 37 C4 09
+PositionY 00 00 00 03 00 00 00 04 41 FB 36 32 09
+PositionZ 00 00 00 03 00 00 00 04 44 81 38 3A 09
+```
+
+It appears as though the format is little endian, and a floating point number. The `46 1A 37 C4` representation of the float is likely a rounding error from the original software.
+
 ### Audio
 
 QuickBMS script to extract wav files:
