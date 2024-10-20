@@ -41,6 +41,10 @@ PositionZ 0.0
 
 It appears as though the format is little endian, and a floating point number (f32). The remainder part of the float (example from x position: `46 1A 37 C4`) is likely a rounding error from the original software.
 
+## GRN
+
+Some titles use Granny3D from RAD Game tools, files use the *.grn extension.
+
 ## OMT
 
 A general container format which holds sounds, textures, and perhaps static 3D models.
