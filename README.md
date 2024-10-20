@@ -21,15 +21,22 @@ Appears to be a file containing data from a level editor. There are text labels 
 Sample:
 
 ```txt
+// From Level1.gam in Jimmy Neutron Boy Genius (2001, PC)
+
 // Raw
 50 6F 73 69 74 69 6F 6E 58 00 00 00 03 00 00 00 04 46 1A 37 C4 09
 50 6F 73 69 74 69 6F 6E 59 00 00 00 03 00 00 00 04 41 FB 36 32 09
 50 6F 73 69 74 69 6F 6E 5A 00 00 00 03 00 00 00 04 44 81 38 3A 09
 
 // Partially translated
-PositionX 00 00 00 03 00 00 00 04 46 1A 37 C4 09
+PositionX 00 00 00 03 00 00 00 04 46 1A 37 C4 09 // Most likely 0 with rounding error
 PositionY 00 00 00 03 00 00 00 04 41 FB 36 32 09
 PositionZ 00 00 00 03 00 00 00 04 44 81 38 3A 09
+
+// Tentative Translation
+PositionX 0.0
+PositionY 0.0
+PositionZ 0.0
 ```
 
 It appears as though the format is little endian, and a floating point number (f32). The remainder part of the float (example from x position: `46 1A 37 C4`) is likely a rounding error from the original software.
