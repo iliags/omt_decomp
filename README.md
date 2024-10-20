@@ -14,7 +14,9 @@ Dynamic 3D models use 3DS Max ASCII Export (*.ase) as the file format.
 
 ## GAM
 
-Appears to be a file containing data from a level editor, currently unknown how to interpret.
+Appears to be a file containing data from a level editor. There are text labels which can infer what type of data it is, but not necessarily what is valid input.
+
+### Position/Rotation
 
 Sample:
 
@@ -30,7 +32,7 @@ PositionY 00 00 00 03 00 00 00 04 41 FB 36 32 09
 PositionZ 00 00 00 03 00 00 00 04 44 81 38 3A 09
 ```
 
-It appears as though the format is little endian, and a floating point number. The remaining part of the float (example from x position: `46 1A 37 C4`) is likely a rounding error from the original software.
+It appears as though the format is little endian, and a floating point number (f32). The remainder part of the float (example from x position: `46 1A 37 C4`) is likely a rounding error from the original software.
 
 ## OMT
 
