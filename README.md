@@ -1,6 +1,6 @@
 # OMT Framework Decompilation
 
-AWE Games (aka AWE Productions) created some movie-based games in the early 2000's. They apparently used an in-house engine based on a framework called OMT. This document details the research found when attempting to extract the assets from titles using this engine.
+AWE Games (aka AWE Productions) created some movie-based games in the early 2000's. They used an in-house engine based on a framework called OMT. This document details found when attempting to reverse engineer titles using this engine.
 
 Known titles:
 
